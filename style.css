@@ -1,6 +1,25 @@
+html{
+	min-height: 100%;
+	position: relative;
+}
+
 body{
+	/*Placeholder image*/
+	background-image: url("gates.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+
 	background-color: #66A3C2;
 	font-family: "helvetica";
+}
+
+.welcome{
+	font-size: 108px;
+	color: white;
+
+	position: absolute;;
+	top: 50%;
+	left: 50%;
 }
 
 .title{
